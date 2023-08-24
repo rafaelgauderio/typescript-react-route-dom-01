@@ -2,6 +2,24 @@
   font-family: system-ui, Helvetica, Arial, sans-serif;
   
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+  --color-bg-header: blue;
+  --color-bg-body-primary: #eaeaea;
+  --color-bg-body-secondary: white;
+
+  --color-font-primary: #8e8e8e;
+  --color-font-primary: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 h1 {
   text-align: center;
   font-size: 25px;
