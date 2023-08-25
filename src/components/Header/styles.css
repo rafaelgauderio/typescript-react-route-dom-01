@@ -4,7 +4,7 @@
     align-items: center;
     min-height: 80px;   
     background-color: var(--color-bg-header);
-    color: var(--color-font-primary);      
+    color: var(--color-font-secondary);      
     font-weight: bolder;
 }
 

@@ -47,3 +47,14 @@ h2 {
 .margin-top {
   margin-top: 30px;
 }
+
+/* fazer com que o item child não ocupe toda a largura */
+.display-flex {
+  display: flex;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+

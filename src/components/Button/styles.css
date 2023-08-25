@@ -12,8 +12,3 @@
   margin-top: 20px;
   min-width: 200px;
 }
-
-/* fazer com que o item child não ocupe toda a largura */
-.display-flex {
-  display: flex;
-}
