@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 import Card from "../../components/Card";
 
@@ -9,14 +10,14 @@ const Subscription = () => {
                     <div className="container">
                         <div className="margin-top margin-botton">
                             <Card title="SUBSCRIPTION page"></Card>
-                            <div className="display-flex">
-                                <Button message={'back to PROMOTIONS'}></Button>
-                            </div>
+                            <Link to="/promotion">
+                                <div className="display-flex">
+                                    <Button message={'back to PROMOTIONS'}></Button>
+                                </div>
+                            </Link>
                         </div>
                     </div>
-
                 </section>
-
             </main>
         </>
     );
