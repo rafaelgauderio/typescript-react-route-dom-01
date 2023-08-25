@@ -4,7 +4,7 @@
   align-items: center;
   background-color: var(--color-bg-button);
   color: var(--color-font-secondary);
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0 20px;
   min-height: 50px;
   font-size: 18px;

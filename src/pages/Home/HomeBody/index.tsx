@@ -9,7 +9,7 @@ const HomeBody = () => {
                 <section>
                     <div className="container">
                         <div className="margin-top margin-botton">
-                            <Card title="Body of initial home page"></Card>
+                            <Card title="Body of INITIAL home page"></Card>
                             <div className="display-flex">
                                 <Button message={'See Promotions'}></Button>
                             </div>
