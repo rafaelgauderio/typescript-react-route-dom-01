@@ -1,17 +1,16 @@
-import Button from '../../../components/Button';
-import Card from '../../../components/Card';
-import './styles.css';
+import Button from "../../components/Button";
+import Card from "../../components/Card";
 
-const HomeBody = () => {
+const Promotion = () => {
     return (
         <>
             <main>
                 <section>
                     <div className="container">
                         <div className="margin-top margin-botton">
-                            <Card title="Body of INITIAL home page"></Card>
+                            <Card title="PROMOTION page"></Card>
                             <div className="display-flex">
-                                <Button message={'See Promotions'}></Button>
+                                <Button message={'I want to participate'}></Button>
                             </div>
                         </div>
                     </div>
@@ -23,4 +22,4 @@ const HomeBody = () => {
     );
 }
 
-export default HomeBody;
+export default Promotion;

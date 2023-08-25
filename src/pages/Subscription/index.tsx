@@ -1,16 +1,16 @@
 import Button from "../../components/Button";
-import Card from "../../components/Card/indext";
+import Card from "../../components/Card";
 
-const Promotion = () => {
+const Subscription = () => {
     return (
         <>
             <main>
                 <section>
                     <div className="container">
                         <div className="margin-top margin-botton">
-                            <Card title="PROMOTION page"></Card>
+                            <Card title="SUBSCRIPTION page"></Card>
                             <div className="display-flex">
-                                <Button message={'I want to participate'}></Button>
+                                <Button message={'back to PROMOTIONS'}></Button>
                             </div>
                         </div>
                     </div>
@@ -22,4 +22,4 @@ const Promotion = () => {
     );
 }
 
-export default Promotion;
+export default Subscription;
