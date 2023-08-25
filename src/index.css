@@ -1,23 +1,33 @@
 :root {
   font-family: system-ui, Helvetica, Arial, sans-serif;
-  
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 
 :root {
   --color-bg-header: blue;
+  --color-bg-button: blue;
   --color-bg-body-primary: #eaeaea;
   --color-bg-body-secondary: white;
 
   --color-font-primary: #8e8e8e;
-  --color-font-primary: white;
+  --color-font-secondary: white;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-body-primary);
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -28,4 +38,12 @@ h1 {
 h2 {
   text-align: center;
   font-size: 20px;
+}
+
+.margin-botton {
+  margin-bottom: 30px;
+}
+
+.margin-top {
+  margin-top: 30px;
 }

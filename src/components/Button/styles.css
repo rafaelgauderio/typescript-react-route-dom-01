@@ -1,0 +1,19 @@
+.default-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg-button);
+  color: var(--color-font-secondary);
+  border-radius: 5px;
+  padding: 0 20px;
+  min-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  min-width: 200px;
+}
+
+/* fazer com que o item child não ocupe toda a largura */
+.display-flex {
+  display: flex;
+}
