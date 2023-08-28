@@ -1,9 +1,9 @@
-:root {
-  font-family: system-ui, Helvetica, Arial, sans-serif;
-}
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 
 :root {
+
+  font-family: system-ui, Helvetica, Arial, sans-serif; 
+
   --color-bg-header: blue;
   --color-bg-button: blue;
   --color-bg-body-primary: #eaeaea;
