@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import HomeBody from './pages/Home/HomeBody'
-import Promotion from './pages/Promotion'
-import Subscription from './pages/Subscription'
+import Promotion from './pages/Home/Promotion'
+import Subscription from './pages/Home/Subscription'
 
 function App() {
 
